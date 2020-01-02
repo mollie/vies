@@ -51,11 +51,6 @@ class ValidatorNL extends ValidatorAbstract
             return false;
         }
 
-        $checksum = (int)$vatNumber[8];
-        $weights = [9, 8, 7, 6, 5, 4, 3, 2];
-        $checkval = $this->sumWeights($weights, $vatNumber);
-        $checkval = ($checkval % 11) > 9 ? 0 : ($checkval % 11);
-
-        return $checkval == $checksum;
+        return true;
     }
 }

@@ -1,9 +1,9 @@
 {
-    "name": "dragonbe/vies",
+    "name": "mollie/vies",
     "type": "tool",
     "description": "EU VAT numbers validation using the VIES Service of the European Commission",
     "keywords": ["VIES","VAT","EU","EC"],
-    "homepage": "https://github.com/DragonBe/vies",
+    "homepage": "https://github.com/mollie/vies",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
